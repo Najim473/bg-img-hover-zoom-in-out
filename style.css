@@ -1,0 +1,28 @@
+.image-box{
+    width:300px;
+    overflow:hidden;
+    border-radius: 4px;
+  }
+  .image {
+      width:300px;
+    height:200px;
+      background: url("./pexels-pixabay-45209.jpg");
+      background-position:center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 4px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  } 
+  .image:hover {  
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2); /* IE 9 */ 
+    transform: scale(1.2);
+    border-radius: 4px;
+
+  } 
